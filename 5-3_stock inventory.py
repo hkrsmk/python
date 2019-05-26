@@ -64,6 +64,28 @@ choice = 0
 myStock = {}
 #empty dictionary for myStock
 
+try:
+    infile = open("myStock.txt","r")
+    read1LineStock = infile.readline()
+    #read first line
+
+    while read1LineStock !=" ":
+    #while the file has not ended,
+        
+        myStock[read1LineStock.split(",")[0]] = float(read1LineStock.split(",")[1])
+        read1LineStock = infile.readline()
+        print(myStock)
+
+    #place item 0 in the split up sentence as the name for the item for myStock,
+    #and whatever number you can find in item 1 of the split up sentence
+    #as the 'quantity' for myStock.
+    #eg myStock['apple'] = '1'
+    #then, read the next line.
+        
+    infile.close()
+except:
+    print("Welcome to the stock management system!")
+
 while choice != 9:
     choice = menu()
     #rmb to return choice to the global choice.
