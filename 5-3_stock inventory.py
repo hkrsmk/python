@@ -77,7 +77,7 @@ try:
         print(myStock)
 
     #place item 0 in the split up sentence as the name for the item for myStock,
-    #and whatever number you can find in item 1 of the split up sentence
+    #and whatever number you can find in item 1 of the split up sentence (ignore '\n')
     #as the 'quantity' for myStock.
     #eg myStock['apple'] = '1'
     #then, read the next line.
