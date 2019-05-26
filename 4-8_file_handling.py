@@ -1,5 +1,5 @@
-outfileName = "G:\school\Python\\4-8_output.txt"
-#need 2 slash, since \ is a special character
+outfileName = "4-8_output.txt"
+#need 2 slash if the filepath is longer eg C:com\file_folder\\file_name.txt, since \ is a special character
 
 outfile = open(outfileName,"a") #"a" for append, "w" for write (override)
 outfile.write("This is a times table 5\n")
