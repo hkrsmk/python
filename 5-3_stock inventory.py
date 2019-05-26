@@ -72,7 +72,7 @@ try:
     while read1LineStock !=" ":
     #while the file has not ended,
         
-        myStock[read1LineStock.split(",")[0]] = float(read1LineStock.split(",")[1])
+        myStock[read1LineStock.split(",")[0]] = int(read1LineStock.split(",")[1])
         read1LineStock = infile.readline()
         print(myStock)
 
