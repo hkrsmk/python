@@ -1,4 +1,4 @@
-infileName = "G:\school\Python\\forS4.txt"
+infileName = "forS4.txt"
 infile = open(infileName,"r") #"r" for read
 for i in range(1,1000):
     #1000 is arbitrary
